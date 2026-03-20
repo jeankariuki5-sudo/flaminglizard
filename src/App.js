@@ -7,11 +7,13 @@ import GetProduct from './components/GetProduct';
 import LoginComponent from './components/LoginComponent';
 import MakePayment from './components/MakePayment';
 import SignUpCompenent from './components/SignUpComponent';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <BrowserRouter>
       <div className="container-fluid">
+        <Navbar />
         <div className="App">
           <header className="App-header">
             <h1 className='warning'>Flaming Lizard</h1>
