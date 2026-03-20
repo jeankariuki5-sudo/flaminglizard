@@ -3,6 +3,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import "bootstrap/dist/js/bootstrap.min.js"
 import AddProductComponent from './components/AddProductComponent';
+import GetProduct from './components/GetProduct';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           </header>
           <Routes>
             <Route path='/addmeal' element={<AddProductComponent />} />
+            <Route path="/menu" element={<GetProduct />} />
           </Routes>
         </div>
       </div>
