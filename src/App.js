@@ -5,6 +5,7 @@ import "bootstrap/dist/js/bootstrap.min.js"
 import AddProductComponent from './components/AddProductComponent';
 import GetProduct from './components/GetProduct';
 import LoginComponent from './components/LoginComponent';
+import MakePayment from './components/MakePayment';
 
 function App() {
   return (
@@ -16,8 +17,9 @@ function App() {
           </header>
           <Routes>
             <Route path='/addmeal' element={<AddProductComponent />} />
-            <Route path="/menu" element={<GetProduct />} />
+            <Route path="/" element={<GetProduct />} />
             <Route path='/login' element={<LoginComponent />} />
+            <Route path='/makepayment' element={<MakePayment />} />
           </Routes>
         </div>
       </div>
