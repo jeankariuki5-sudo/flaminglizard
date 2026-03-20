@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import "bootstrap/dist/js/bootstrap.min.js"
 import AddProductComponent from './components/AddProductComponent';
 import GetProduct from './components/GetProduct';
+import LoginComponent from './components/LoginComponent';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Routes>
             <Route path='/addmeal' element={<AddProductComponent />} />
             <Route path="/menu" element={<GetProduct />} />
+            <Route path='/login' element={<LoginComponent />} />
           </Routes>
         </div>
       </div>
